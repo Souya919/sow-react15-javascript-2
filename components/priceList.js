@@ -4,7 +4,7 @@ var PriceList = React.createClass({
   },
 
   fetchData: function() {
-    fetch('http://localhost:8000/product/show', {
+    fetch('https://lettfaktura-two.vercel.app/', {
       // mode: "no-cors", // no-cors, *cors, same-origin
       method: "GET", // *GET, POST, PUT, DELETE, etc.
       headers: {
